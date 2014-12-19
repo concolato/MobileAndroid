@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#191919">
+
+    <TextView
+        android:id="@+id/username_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_enter_text"
+        android:autoText="false"
+        android:background="#4f4f4f"
+        android:textColor="#fdffdb">
+    </TextView>
+
+    <EditText
+        android:id="@+id/number_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_hint"
+        android:inputType="text"
+        android:textColor="#f7ffd3"
+        android:background="#949494"
+        android:textColorHint="#afffba">
+    </EditText>
+
+    <Button
+        android:id="@+id/sort_button"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/sortButton_string"
+        android:layout_marginLeft="-2dp"
+        android:textColor="#f4ffd8">
+    </Button>
+
+</LinearLayout>

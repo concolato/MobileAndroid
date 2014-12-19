@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sequence</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sortText">Welcome To the Sorter</string>
+
+    <string name="enter_hint">Enter Here</string>
+    <string name="number_enter_text">Enter Numbers to be Sorted</string>
+    <string name="number_entered_text"></string>
+    <string name="numbers_sorted_text"></string>
+    <string name="sortButton_string">Sort Numbers</string>
+
+</resources>
